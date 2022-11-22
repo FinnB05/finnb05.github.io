@@ -1,3 +1,15 @@
 body {
     background-color: #111111;
 }
+
+div #welcome {
+
+    width: 100%;
+    text-align: center;
+
+}
+
+h1 #welcome {
+    display: block;
+    left: 50%;
+}
