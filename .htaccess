@@ -1,2 +1,4 @@
 RewriteEngine On
 RewriteRule ^index\.html$ / [R=301,L]
+
+Redirect 302 /owo https://en.wikipedia.org/wiki/List_of_universities_with_BDSM_clubs
