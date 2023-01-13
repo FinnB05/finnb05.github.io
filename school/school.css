@@ -1,3 +1,22 @@
 body {
     background-color: #333;
+
+    font: 20px arial;
+    color: white;
+}
+
+p {
+    text-align: center;
+}
+
+button {
+    display: inline-block;
+
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 5px;
+
+    background-color: gold;
+
+    font: 18px arial;
 }
