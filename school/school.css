@@ -1,7 +1,7 @@
 body {
     background-color: #333;
 
-    font: 20px arial;
+    font: 16px arial;
     color: white;
 }
 
@@ -18,5 +18,27 @@ button {
 
     background-color: gold;
 
-    font: 18px arial;
+    font: 16px arial;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 5px;
+    min-width: 20px;
+}
+
+.block {
+    background: #B71234;
+}
+
+.block-left {
+    background: linear-gradient(90deg, #B71234 50%, rgba(0, 0, 0, 0) 50%);
+}
+
+.block-right {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 50%, #B71234 50%);
 }
