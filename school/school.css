@@ -14,11 +14,19 @@ button {
 
     border: 1px black solid;
     border-radius: 5px;
-    padding: 5px;
-
-    background-color: gold;
+    margin: 5px;
+    padding: 10px;
 
     font: 16px arial;
+    font-weight: bold;
+}
+
+.h5 button {
+    background-color: gold;
+}
+
+.h4 button {
+    background-color: cyan;
 }
 
 table, th, td {
