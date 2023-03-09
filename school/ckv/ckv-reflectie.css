@@ -28,7 +28,7 @@
 }
 
 .dialogue {
-    margin: 20px;
+    margin: 30px;
     padding: 15px;
     width: max-content;
 
@@ -37,9 +37,15 @@
     border: 1px solid black;
 }
 
+.right {
+    margin-left: auto;
+    margin-right: 30px;
+}
+
 .dialogue p {
     padding: 0px;
     margin: 0px;
 
     font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+    max-width: 500px;
 }
