@@ -1,0 +1,45 @@
+@keyframes bg {
+    0% {background-position:0% 82%}
+    50% {background-position:100% 19%}
+    100% {background-position:0% 82%}
+}
+
+.bg {
+    animation: bg 9s ease infinite;
+    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    background-size: 1800% 1800%;
+
+    z-index: -1;
+}
+
+.year-title {
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+    font-size: 48px;
+    color: white;  
+    text-align: center;
+}
+
+.dialogue {
+    margin: 20px;
+    padding: 15px;
+    width: max-content;
+
+    background-color: rgba(170, 255, 255, 0.75);
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.dialogue p {
+    padding: 0px;
+    margin: 0px;
+
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+}
