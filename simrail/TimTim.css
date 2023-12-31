@@ -1,0 +1,11 @@
+html {
+    background-color: #333333;
+    color: whitesmoke;
+}
+
+#speed {
+    font-family: Bahnschrift, sans-serif;
+    font-size: 48px;
+
+    text-align: center;
+}
