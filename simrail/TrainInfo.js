@@ -20,7 +20,7 @@ function getTrainData() {
 
             for(let i = 0; i < trains.length; i++) {
 
-                if(trains[i].TrainNoLocal == trainNumber) {
+                if(trains[i].TrainNoLocal === trainNumber) {
                     console.log(trains[i]);
                     document.getElementById("speed").innerText = Math.round(parseInt(trains[i].TrainData.Velocity));
                 }
